@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  margin-bottom: 24px;
+  padding-inline: 24px;
+  background-color: rgb(34, 34, 252);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__item {
+  list-style: none;
+  transition: all .3s;
+}
+
+.nav__item:hover {
+  background-color: rgb(52, 52, 255);
+}
+
+.nav__link {
+  display: inline-block;
+  padding-inline: 10px;
+  line-height: 60px;
+  text-decoration: none;
+  color: white;
+}
